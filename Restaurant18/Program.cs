@@ -13,7 +13,9 @@
                 new MainMenu("burger", 1500),
                 new DrinkMenu("tea", 200),
                 new MainMenu("pasta", 1800),
-                new DrinkMenu("soda", 400)
+                new DrinkMenu("soda", 400),
+                new MainMenu("salad", 1200),
+                new DrinkMenu("water", 100)
             };
 
             var generator = new MenuTableGenerator();
